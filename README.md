@@ -1,2 +1,0 @@
-# gifsApp
-aplicacón de gifs
