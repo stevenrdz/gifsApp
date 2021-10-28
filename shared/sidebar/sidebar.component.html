@@ -1,0 +1,14 @@
+<div class="bg-dark border-right p-3" id="sidebar">
+    <div class="text-light">
+      GiftApps
+    </div>
+    <hr class="text-white">
+    
+    <div class="list-group list-resest">
+      
+      <a *ngFor="let item of historial" href="#" 
+        class="list-group-item list-group-item-action">
+        {{item | titlecase }}
+      </a>
+    </div>
+  </div>
