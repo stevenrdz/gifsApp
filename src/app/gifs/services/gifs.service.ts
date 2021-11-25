@@ -7,7 +7,7 @@ import { Gif, SearchGifsResponse, Images } from '../interface/gifs.interface';
 })
 export class GifsService {
 
-  private key: string = 'JiRl6q7dhMme9CQe8IrYd6Bp5Zg9v1cI';
+  private key: string = '';
   private _historial: string[] =[];
   public resultados: Gif[] = [];
   private searchUrl: string = 'https://api.giphy.com/v1/gifs'
@@ -58,7 +58,7 @@ export class GifsService {
 }
 // *
 // javascript
-    /* fetch('https://api.giphy.com/v1/gifs/search?api_key=JiRl6q7dhMme9CQe8IrYd6Bp5Zg9v1cI&q=dragon ball&limit=10')
+    /* fetch('https://api.giphy.com/v1/gifs/search?api_key=''=dragon ball&limit=10')
       .then(resp => {
         resp.json().then(data =>{
           console.log(data);
@@ -66,7 +66,7 @@ export class GifsService {
       }) */
 
     // Async await
-    /* const resp = await fetch('https://api.giphy.com/v1/gifs/search?api_key=JiRl6q7dhMme9CQe8IrYd6Bp5Zg9v1cI&q=dragon ball&limit=10');
+    /* const resp = await fetch('https://api.giphy.com/v1/gifs/search?api_key=''=dragon ball&limit=10');
     const data = await resp.json();
     console.log(data); */
 //*
